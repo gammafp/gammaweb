@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/components/Bio/Bio.module.scss"],"names":["module","exports"],"mappings":"gFACAA,EAAOC,QAAU,CAAC,UAAY,iC","file":"styles-3db380142ca66898550c.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"Bio-module--container--37WXR\"};"],"sourceRoot":""}

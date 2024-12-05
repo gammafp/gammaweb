@@ -1,2 +1,0 @@
-# gammaweb
-Gamma web public
