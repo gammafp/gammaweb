@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tool/animator/static/css/main.baac4025.chunk.css",
+    "main.js": "/tool/animator/static/js/main.ac31031b.chunk.js",
+    "main.js.map": "/tool/animator/static/js/main.ac31031b.chunk.js.map",
+    "runtime-main.js": "/tool/animator/static/js/runtime-main.10d1fa4e.js",
+    "runtime-main.js.map": "/tool/animator/static/js/runtime-main.10d1fa4e.js.map",
+    "static/css/2.f57830eb.chunk.css": "/tool/animator/static/css/2.f57830eb.chunk.css",
+    "static/js/2.d92cfabb.chunk.js": "/tool/animator/static/js/2.d92cfabb.chunk.js",
+    "static/js/2.d92cfabb.chunk.js.map": "/tool/animator/static/js/2.d92cfabb.chunk.js.map",
+    "index.html": "/tool/animator/index.html",
+    "precache-manifest.7e3e5d181d1873b73577b1abd8144911.js": "/tool/animator/precache-manifest.7e3e5d181d1873b73577b1abd8144911.js",
+    "service-worker.js": "/tool/animator/service-worker.js",
+    "static/css/2.f57830eb.chunk.css.map": "/tool/animator/static/css/2.f57830eb.chunk.css.map",
+    "static/css/main.baac4025.chunk.css.map": "/tool/animator/static/css/main.baac4025.chunk.css.map",
+    "static/js/2.d92cfabb.chunk.js.LICENSE": "/tool/animator/static/js/2.d92cfabb.chunk.js.LICENSE",
+    "static/media/logo.gif": "/tool/animator/static/media/logo.d7026897.gif",
+    "static/media/App.scss": "/tool/animator/static/media/material_icons.d7e60f9d.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10d1fa4e.js",
+    "static/css/2.f57830eb.chunk.css",
+    "static/js/2.d92cfabb.chunk.js",
+    "static/css/main.baac4025.chunk.css",
+    "static/js/main.ac31031b.chunk.js"
+  ]
+}

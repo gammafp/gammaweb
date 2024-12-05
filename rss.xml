@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[GAMMAFP]]></title><description><![CDATA[Developer with web technologies, HTML5 video games, tools and tips that make your life easier]]></description><link>https://localhost:8000</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Jul 2020 10:21:48 GMT</lastBuildDate><item><title><![CDATA[Selector de personaje formato carousel]]></title><description><![CDATA[A veces queremos crear hermosos selectores de personajes y en este tutorial veremos como hacer un selector carousel. Acá vemos un ejemplo de…]]></description><link>https://localhost:8000/es/carousel/</link><guid isPermaLink="false">https://localhost:8000/es/carousel/</guid><pubDate>Fri, 06 Mar 2020 19:04:38 GMT</pubDate><content:encoded>&lt;p&gt;A veces queremos crear hermosos selectores de personajes y en este tutorial veremos como hacer un selector carousel.&lt;/p&gt;
+&lt;p&gt;Acá vemos un ejemplo de lo que aprenderemos a hacer: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/20860db62842842f88f7e793d74e6bd3/carousel.gif&quot; alt=&quot;Carousel example&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3&gt;Empezamos&lt;/h3&gt;
+&lt;p&gt;Primero descarga este paquete AQUÍ.&lt;/p&gt;
+&lt;p&gt;Este paquete viene con Phaser3 preparado y una escena principal preparada, puedes aprender más sobre Phaser 3 en mi canal de youtube.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My projects]]></title><description><![CDATA[During my journey I have made several projects that range from web development to games with web technologies and tutorials, here I will…]]></description><link>https://localhost:8000/en/projects/</link><guid isPermaLink="false">https://localhost:8000/en/projects/</guid><pubDate>Wed, 04 Mar 2020 09:08:50 GMT</pubDate><content:encoded>&lt;p&gt;During my journey I have made several projects that range from web development to games with web technologies and tutorials, here I will expose a few projects that may also be of help to you.&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h4&gt;YouTube channel&lt;/h4&gt;
+&lt;p&gt;The YouTube channel is a space dedicated to the things I like to do and teach.
+I show from tutorials on web programming, video games and direct, I invite you to enter by clicking on the following image:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/gammafp&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.26959847036329%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAHLDkwsv//EABgQAAIDAAAAAAAAAAAAAAAAAAARAQMT/9oACAEBAAEFAnWTmJn/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAQIh/9oACAEDAQE/AU21/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABoQAAICAwAAAAAAAAAAAAAAAAABERIhIoH/2gAIAQEABj8CiphPpqf/xAAZEAEAAwEBAAAAAAAAAAAAAAABABExYSH/2gAIAQEAAT8hzS3TZaeV62ISgrs//9oADAMBAAIAAwAAABDz3//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPxDdZhX/xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQIBAT8QIGX/xAAaEAADAQEBAQAAAAAAAAAAAAABESExAEFh/9oACAEBAAE/EAYIYCxYK1rfmcUyKop5BvAQnzY7/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Banner Youtube&quot;
+        title=&quot;Banner Youtube&quot;
+        src=&quot;/static/8013f87d0414d7a134202b65a08246c5/1c72d/banner.jpg&quot;
+        srcset=&quot;/static/8013f87d0414d7a134202b65a08246c5/a80bd/banner.jpg 148w,
+/static/8013f87d0414d7a134202b65a08246c5/1c91a/banner.jpg 295w,
+/static/8013f87d0414d7a134202b65a08246c5/1c72d/banner.jpg 590w,
+/static/8013f87d0414d7a134202b65a08246c5/a8a14/banner.jpg 885w,
+/static/8013f87d0414d7a134202b65a08246c5/fbd2c/banner.jpg 1180w,
+/static/8013f87d0414d7a134202b65a08246c5/7cf90/banner.jpg 2092w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h4&gt;Udemy courses&lt;/h4&gt;
+&lt;p&gt;I have developed two video game development courses with ** Phaser 3 ** that can be useful for you.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Curso de iniciación: &lt;a href=&quot;https://www.udemy.com/course/phaser-iniciacion/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://www.udemy.com/course/phaser-iniciacion/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Curso desde cero: &lt;a href=&quot;https://www.udemy.com/course/phaser-completo/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://www.udemy.com/course/phaser-completo/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h4&gt;Video games and applications&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Guinea Jump is a video game created with Phaser 3 and with an excellent pixelart created by &lt;a href=&quot;https://twitter.com/awacato&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;@awacato&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=io.gamma.guineajump&amp;#x26;hl=es&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.954631379962194%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADDUlEQVQozyWM60+bBRSH3//Fb2ZZ3IBShArqIFNuhda2QN+3F9qyUqEyeoG20JW2C5QVVijQDQoNhREZl6khpNkI8zLRkOnchyWazA/GeEm8EHWMCdnjq3548jvnl+ccoSj9lPbCIas/HVK39YRXZw6on/uRU9NwbvoXiqZOOJWG01P/o5x5xsvThygnD//LUnlXTR4QH9zEOvwAoUQu27b+oPfDPykvQOaDJfYyNjyzt1maS5BaWMR/4y7+7G0Cc9tUTv5GUfaEyrW/KUk/o2zmiIqRn7lZ00rgnQWE+q0jqndOUK08xZ75neX8PA+XJL7csPNo08z+hpNv10S+XpZ4vKrDvv4N7dlfiSx/inntMefvPefc1jFV7/1F40dPEDKzuwRu3SeRv8emY5HZC3nuXNlmJLXL6MxdppI7LLqG2BgYY3y+wM3sCncsGbYiY+y++z6XFh4SXfmK8dx9Rq/tI+xoe/jOM88P0Q2+j62TMCRJ1CSJq4axKvvxngmzXuPiY42dz2qN7L+h4fNaPTnRx4QuSUwZxa7w4H0xSHdRP8IXPi8HiRsc5XY5vl5gyp/lvKuXiqCJskGJ1612bD0WDL02bC4bZm8HNncn6q52FF5J9iyUDpqodDooD5kQHqVWOZ7c5nn+E8jvMeJLcvZtM4ouPU1WB9e65ui0hqgez2PI7XHWcxGltZkzHhMKv4jS1UqV00C53UBxj4TQFwoz4B4g5AkR90do7uykpLuFihYtBouDWf0CAXWY6uAK9pEHKIP9lLm1KE0SKncbVVodr3lbUPUYKZWMCKcDel7wvkXXgJPCUpZgh45XQhLFIZHioERlp4Qj0YUt2c1LbhtvXtCQchup62ul6JKIIihSEpZQyLMyLCLoJsw0pNrwpi8yHPMQ92nQj4uoJ0Qar0hokkaC1/sYyvnQTrdiiLfg86jRXm5Dk5Zouiq7SZHaIZH6Eflh1K4mamkkLNURkGqJ2tTEZEbb1QyaGohIDaQcGq46tYzZmwnKXczRxOWOZiLmBuL/IrsJq3wn5z+FRiQ/ObHilAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Guinea Jump&quot;
+        title=&quot;Guinea Jump&quot;
+        src=&quot;/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/fcda8/guineajump.png&quot;
+        srcset=&quot;/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/12f09/guineajump.png 148w,
+/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/e4a3f/guineajump.png 295w,
+/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/fcda8/guineajump.png 590w,
+/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/efc66/guineajump.png 885w,
+/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/bb2fd/guineajump.png 1058w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Phaser3-cli is a command line tool that helps you create and manage your own project with Phaser.
+It has a project builder for web and android.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/phaser3-cli&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 509px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.70333988212181%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABQ0lEQVQoz51SsUrDUBR9m7/gIDgLjn6AiyAILha3rgWtg4uDOOggDl0d3BT/ICASghTSNEhtrVoxodhoSpISm6apQypBkxyThy1pUUQvnHcPF+7hnPce8YMAQQQgRMzDMERcg/7XIvQsCPB2dofD8Et4XDzZkxjuRZzIagtHG3s4XM4gf86j/+F/u/STSFKMOtzMnYJML2F1bR+p9Dau681oHPware+68H2fIumcZA+OQWZSmJhLY3I+AzZfRF2WUC5dwe500HMcON0ubNumPO5Ko4GmqkKWJBi6PpKInDA8phbWMbuyhcVsDnyhGC084u7mFpeiiDOGgSgI4FgWFxxHeblUgmVZuK/VUK1URu8wJlX5GQ+KDu3Fxrv3Rl/b8zzq5klRYJomWoZBEbt0o7i6psFqt/Ha641G/u/3GH+Qgc4nPXZOZ7LJyr0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Phaser3-cli banner&quot;
+        title=&quot;Phaser3-cli banner&quot;
+        src=&quot;/static/fa62496434d88afee6378f4397f04843/71554/phaser3-cli.png&quot;
+        srcset=&quot;/static/fa62496434d88afee6378f4397f04843/12f09/phaser3-cli.png 148w,
+/static/fa62496434d88afee6378f4397f04843/e4a3f/phaser3-cli.png 295w,
+/static/fa62496434d88afee6378f4397f04843/71554/phaser3-cli.png 509w&quot;
+        sizes=&quot;(max-width: 509px) 100vw, 509px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Atlas Packer Phaser - It is a project that arose from the need to have a tool capable of joining sprites into one and that is 100% compatible with Phaser, it is a great help when creating our video games with Phaser (link in the menu of the web page).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f7d45b739e33c61dd3650b1630050949/f32b7/atlas_packer.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADGUlEQVQ4y22T2U+TWRiHey2CIKUrbb+u0JZSEbdoRiEzo4xxdwwIwQSjo3Phgmtq3EZDIy4gKqKolNKWdsAWLK3RFjRRZ8ZEorfz3zye70MQghe/nPX9vc857zkqh9WB0WzDJKQ2WHDaHJitTgxGC5UeH5ZKHybJic5sx+L2Y3R6Wa63YHJVobe6KBUxWrFWojNTqDagqqldj9O/jvKKGop0Nnzrf+H5nSDZ/gcMXgkwHo2Qjw0S7+wgfq+biWePyQ1HiFw8x+69+ymTPFSvrcMvtGZTAyqtmNAI6axexXDtpi1MpicIdd4hdLiFbGSIfHyY6Ll28s/6yCdTpHru8uLiaZoaW9DYvILWz/EzAeIjKVRlFjeytLOGdQ18SI8xOTrC2KM+3k+94VUiQeJuDx+mpsglk6TDQ2QGBmg7cowSoxPJU8vZC1cJDcVRab4RyobFBrvArycfCTHa3UX/gb28ikXJPO0ncf4EyeBlMuEwz7tuMXryEDsatqG1+5DcKzkduEJyfGLGcD7h6o2byf2dINzVQ/RGkM+fphnq7iF88xb/vXtPRtxpqPMmaUF/UBAWG0QRK2vwr6unYVfTQsMSsehdtZEXD++T7evl8YHfST18wMfBXrKdfzEsipQS89lHvcT+aOa3+s0U6OzKCYsNTgo00o8JM7EY0du3SYuj/iuohp+GGQwGmRwf5+3kW6L37pMbGWVfc5tiorNVKfFyu8hwlSj957EE08k4qVOHmYpH+f9lkuyNa+R6u/gn8oQviQFeXw/Qsr+VJYqhF43w0EjuhYbyfVSt/onApQ5am9o4snM3gbMX+PPoSRrrf+VqezuXLndwsLGVM02N1P28lSK9XYmdLe6cYZnFo2QoNblYKrIWi+dQWF7BUq2NQkFeJPoFesfMWLQFBhfLTRUKmdpcKVSh+MwZfif1oBdPQbkT68yDl6WVvvdnJQPI+13ip3lWbsDhWzOf0P2tWg6WCanlzHPkP5YSI2RwVFPuWqGALCrKlu172LWvGbPTg81drXz8UqOE2mgVkuZpZlxmdinx8rHl9isWwhIi3YHVIQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;AtlasPackerPhaser&quot;
+        title=&quot;AtlasPackerPhaser&quot;
+        src=&quot;/static/f7d45b739e33c61dd3650b1630050949/fcda8/atlas_packer.png&quot;
+        srcset=&quot;/static/f7d45b739e33c61dd3650b1630050949/12f09/atlas_packer.png 148w,
+/static/f7d45b739e33c61dd3650b1630050949/e4a3f/atlas_packer.png 295w,
+/static/f7d45b739e33c61dd3650b1630050949/fcda8/atlas_packer.png 590w,
+/static/f7d45b739e33c61dd3650b1630050949/efc66/atlas_packer.png 885w,
+/static/f7d45b739e33c61dd3650b1630050949/f32b7/atlas_packer.png 1136w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Animator Tool - It is a project that helps us to animate our atlas generated with the Atlas Packer Phaser and that is of great help to not have to write all the animation code in Phaser (link in the menu of the web page).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9f3c7004cfb8502f8ea839deaee1c91c/cd1d6/anim_tool.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.23751095530237%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACMUlEQVQ4y31TyY7TQBD1FzAh4zh2Fq9Z7Wze7XhJMhlxAnFjhBAIgUAgcRgYTkiQI5/9KHfsyYQEDk9V7i6/frVxPd2ApBgQZQOtrgZD0dElK3Y09n3ZUsG3/w2hpaDVkul/HQJxcHGawks20CYBGsoYl/IIvGKSbzIrqOSfQXH+uDOA48Z4dnUNw7DQ7s3ApXkOd7mBYnoUNIagjFgw8wnFI0IJ5qvld0FMsaIxgTRYgJf359x6lSEkhYOJD0nbB+2DKwLzCNU5U1lYyqhAlQmXJBmidAtzEUNUjwkre9k2CPrR2cmjpeX8ZQaPCI1pWAYcCJuk+KLVhz0z4TkL1MhvaucJGwfCFeyYmmL5Zc1OFTZIHS+p/1V4IIxz2NEaOiM8X8OGapG1zpKcEDphhiDd3KcslKneN6Jqwl94ePeQnJsHGeJ8C72cwwL1zpDNYYPNoUUPHKNSexivgwDODldMoTL2wHeH1OkBwvwa3R4NqmFSdzXURIXhorQ1SSF1fXZXb/eYCF4eEkaUcpTDT9aQRy6a9JrtRQiyLZyitmGKqZfAtAPMvBgu3Tlkp9YCC2uOzZOnJMSGPLShmS46gzm4gMZmubpiq9fpTXD36QV+fLnB7ttb7G5fYnf3Dr9uX+Hn1/f4/f01Pn/8gLmXoz8N8PzmDfqzEAYtxdhJoI5dcBMnIgUhRH3KmjGn3bT9FC41y2GWlPoJPLJJlGIZryBRrepUnkeizsrE9r7YGEr9D7whl+HPC/DwAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Animtool&quot;
+        title=&quot;Animtool&quot;
+        src=&quot;/static/9f3c7004cfb8502f8ea839deaee1c91c/fcda8/anim_tool.png&quot;
+        srcset=&quot;/static/9f3c7004cfb8502f8ea839deaee1c91c/12f09/anim_tool.png 148w,
+/static/9f3c7004cfb8502f8ea839deaee1c91c/e4a3f/anim_tool.png 295w,
+/static/9f3c7004cfb8502f8ea839deaee1c91c/fcda8/anim_tool.png 590w,
+/static/9f3c7004cfb8502f8ea839deaee1c91c/efc66/anim_tool.png 885w,
+/static/9f3c7004cfb8502f8ea839deaee1c91c/cd1d6/anim_tool.png 1141w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Audio Sprite - It is a tool that helps us to combine different audios with the aim of obtaining a single audio and its respective JSON with the cutting data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://gammafp.github.io/audio-sprite-gamma/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.65538735529832%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABRElEQVQ4y62UwVKDMBCG8wyUtoQkBJKCM1UvHupYtWOdjh58/+f5/QOlDRXxUA8fWTa7S3Z/QLj7RyTLHGleEINUFZhHBP+M/oGPZNpAGwOlz4R8IasGsqpPLEzJAl1SwgBlKxTOI5Hdw1JlMdcWmfXIGR8T8kV745ozpYP1DQpfw7gavm6wvl23drlqoCsPWZQssIJkfEzIF+Ei+6LHdX/4wnZ3wO79E5vnNzzRft1/4IXcPWxO8XL0hO7c8qD4EeVvuNaDsUzFi94YBEUtZPRlVTMcS5Rz6RNxq20R6whnRDHCrIIg1q+6udHXEuyym2E+dsL4SUtTYUEVA3MqqiiSoRBB3d6/6FX+q+Xf2som9kZbjgc8NvipvR8nHAu8BjHWyjXwhFTrHxHtDyFiJjUkXx3Nz08xwJiiJQ8/gKN9mRPzDTSKf7WDGJdOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Audio Sprite&quot;
+        title=&quot;Audio Sprite&quot;
+        src=&quot;/static/0a88e396e5fddac75e3018ed4ca715a8/fcda8/audio_sprite.png&quot;
+        srcset=&quot;/static/0a88e396e5fddac75e3018ed4ca715a8/12f09/audio_sprite.png 148w,
+/static/0a88e396e5fddac75e3018ed4ca715a8/e4a3f/audio_sprite.png 295w,
+/static/0a88e396e5fddac75e3018ed4ca715a8/fcda8/audio_sprite.png 590w,
+/static/0a88e396e5fddac75e3018ed4ca715a8/efc66/audio_sprite.png 885w,
+/static/0a88e396e5fddac75e3018ed4ca715a8/e751c/audio_sprite.png 1123w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TTF2PNG - A tool that helps us convert TTF font files to PNG in order to use bitmap fonts for retro games.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://ttf2png.ga/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.11259754738016%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC5ElEQVQ4y42Sy28TVxTG518p6raNVEQRj6wqsaiQYAGtVMGKLQtAbYWqgIRSIYJEpVYU8QrDTCaGEJcqBPIiJnESIHGSmsRjj8eOPfYkMVEWiNSxYzuPX89MYjWbSj3SN/e7373nu+fcO0rj18c5cOwkDce/4ci3p/ii8Ss+33uAhn2H/hc+k71fSs7+E9+x/8hRFL2tHc0I8FCgBR6hylzV2lB1g4c70PQ2GXdp3rqmy6j7ui65+qMO2gKPUbLZLNlsBtfJsuQ4LORzLLouC6LPC3fzeTJuASe/QCHnkBPdyeWZX1gSvMd1F3E8TZCTfCUWi5GIxxmenub3iUn+HBzixcsQ3TOzDLx+Q2hkjMyQTnQkSCAyxeSsyfTbQZ7qzfxhtDAyYJCwbDwf0zTFUMzcdIqW0DAHb2uce/KMht9aaWy5wVk1wGnjKZW7R0kaZzh8v5P+uE1v8B6/3vyZ1uBjjPvNpFJzxMUskUigmGI4ZyfpGntDsHeA9v6XXAl20XzrDr909XA1FOZD9w3s5/e4qHUSipqM9uk0XTjGT9+folO9TCqd8auLi5fifVKWxaC0o4bHuNb/iql3M4zHTC519zMamUQLR7jwLMTVngGGoglmwjp91/cweesTot0/krAdubbYvxVaQsamo7x4O4ERfs2U3N9E9B13pLrwX1F6xyO0Cr/ZN8hw1MIceUBS/ZTYXc/wB8ykIy3Htiu0pDrP2U5afuu5VEp40sf8XJq0aJmUjSt8MTNHRtqLjL8i1NlEj36eyOhzknYay0rgeSlra2vUUS6XKQnqc4+XfX2bf1xZ8VFcLbFSqrGyWqVcqbHbQ0GiVCrzd7FIPbZ2wK7Ri2JxleXlZSqVCv8VytbWlmwsUq3Wtg1k7qNuLHxzc3PHsIimaTxQVQzDoKPjCbOzMX/N2+PBN1wtlXxUazX/9EqlKuVXWBNerVZ3DsFvu/4D27YtDxGnUCiwvr7u521sbPIPOHRW9R69wK8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;TTF2PNG&quot;
+        title=&quot;TTF2PNG&quot;
+        src=&quot;/static/19fd06e12dffce90da71ceac9d0d27ff/fcda8/ttf2_png.png&quot;
+        srcset=&quot;/static/19fd06e12dffce90da71ceac9d0d27ff/12f09/ttf2_png.png 148w,
+/static/19fd06e12dffce90da71ceac9d0d27ff/e4a3f/ttf2_png.png 295w,
+/static/19fd06e12dffce90da71ceac9d0d27ff/fcda8/ttf2_png.png 590w,
+/static/19fd06e12dffce90da71ceac9d0d27ff/efc66/ttf2_png.png 885w,
+/static/19fd06e12dffce90da71ceac9d0d27ff/3a737/ttf2_png.png 897w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mis proyectos]]></title><description><![CDATA[Durante mi trayecto he realizado varios proyectos que van desde el desarrollo web hasta juegos con tecnologías web y tutoriales, acá…]]></description><link>https://localhost:8000/es/projects/</link><guid isPermaLink="false">https://localhost:8000/es/projects/</guid><pubDate>Wed, 04 Mar 2020 09:08:50 GMT</pubDate><content:encoded>&lt;p&gt;Durante mi trayecto he realizado varios proyectos que van desde el desarrollo web hasta juegos con tecnologías web y tutoriales, acá expondré unos cuantos proyectos que a lo mejor te puedan ser de ayuda también a ti.&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h4&gt;Canal de youtube&lt;/h4&gt;
+&lt;p&gt;El canal de YouTube es un espacio dedicado a las cosas que me gusta hacer y enseñar.
+Muestro desde tutoriales sobre programación web, videojuegos y directos, te invito a entrar clicando en la siguiente imagen:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/gammafp&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.26959847036329%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAHLDkwsv//EABgQAAIDAAAAAAAAAAAAAAAAAAARAQMT/9oACAEBAAEFAnWTmJn/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAQIh/9oACAEDAQE/AU21/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABoQAAICAwAAAAAAAAAAAAAAAAABERIhIoH/2gAIAQEABj8CiphPpqf/xAAZEAEAAwEBAAAAAAAAAAAAAAABABExYSH/2gAIAQEAAT8hzS3TZaeV62ISgrs//9oADAMBAAIAAwAAABDz3//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPxDdZhX/xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQIBAT8QIGX/xAAaEAADAQEBAQAAAAAAAAAAAAABESExAEFh/9oACAEBAAE/EAYIYCxYK1rfmcUyKop5BvAQnzY7/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Banner Youtube&quot;
+        title=&quot;Banner Youtube&quot;
+        src=&quot;/static/8013f87d0414d7a134202b65a08246c5/1c72d/banner.jpg&quot;
+        srcset=&quot;/static/8013f87d0414d7a134202b65a08246c5/a80bd/banner.jpg 148w,
+/static/8013f87d0414d7a134202b65a08246c5/1c91a/banner.jpg 295w,
+/static/8013f87d0414d7a134202b65a08246c5/1c72d/banner.jpg 590w,
+/static/8013f87d0414d7a134202b65a08246c5/a8a14/banner.jpg 885w,
+/static/8013f87d0414d7a134202b65a08246c5/fbd2c/banner.jpg 1180w,
+/static/8013f87d0414d7a134202b65a08246c5/7cf90/banner.jpg 2092w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h4&gt;Cursos de Udemy&lt;/h4&gt;
+&lt;p&gt;He desarrollado dos cursos de desarrollo de videojuegos con &lt;strong&gt;Phaser 3&lt;/strong&gt; que te pueden ser útiles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Curso de iniciación: &lt;a href=&quot;https://www.udemy.com/course/phaser-iniciacion/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://www.udemy.com/course/phaser-iniciacion/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Curso desde cero: &lt;a href=&quot;https://www.udemy.com/course/phaser-completo/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://www.udemy.com/course/phaser-completo/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h4&gt;Videojuegos y aplicaciones&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Guinea Jump es un videojuego creado con Phaser 3 y con un excelente pixelart creado por &lt;a href=&quot;https://twitter.com/awacato&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;@awacato&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=io.gamma.guineajump&amp;#x26;hl=es&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.954631379962194%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADDUlEQVQozyWM60+bBRSH3//Fb2ZZ3IBShArqIFNuhda2QN+3F9qyUqEyeoG20JW2C5QVVijQDQoNhREZl6khpNkI8zLRkOnchyWazA/GeEm8EHWMCdnjq3548jvnl+ccoSj9lPbCIas/HVK39YRXZw6on/uRU9NwbvoXiqZOOJWG01P/o5x5xsvThygnD//LUnlXTR4QH9zEOvwAoUQu27b+oPfDPykvQOaDJfYyNjyzt1maS5BaWMR/4y7+7G0Cc9tUTv5GUfaEyrW/KUk/o2zmiIqRn7lZ00rgnQWE+q0jqndOUK08xZ75neX8PA+XJL7csPNo08z+hpNv10S+XpZ4vKrDvv4N7dlfiSx/inntMefvPefc1jFV7/1F40dPEDKzuwRu3SeRv8emY5HZC3nuXNlmJLXL6MxdppI7LLqG2BgYY3y+wM3sCncsGbYiY+y++z6XFh4SXfmK8dx9Rq/tI+xoe/jOM88P0Q2+j62TMCRJ1CSJq4axKvvxngmzXuPiY42dz2qN7L+h4fNaPTnRx4QuSUwZxa7w4H0xSHdRP8IXPi8HiRsc5XY5vl5gyp/lvKuXiqCJskGJ1612bD0WDL02bC4bZm8HNncn6q52FF5J9iyUDpqodDooD5kQHqVWOZ7c5nn+E8jvMeJLcvZtM4ouPU1WB9e65ui0hqgez2PI7XHWcxGltZkzHhMKv4jS1UqV00C53UBxj4TQFwoz4B4g5AkR90do7uykpLuFihYtBouDWf0CAXWY6uAK9pEHKIP9lLm1KE0SKncbVVodr3lbUPUYKZWMCKcDel7wvkXXgJPCUpZgh45XQhLFIZHioERlp4Qj0YUt2c1LbhtvXtCQchup62ul6JKIIihSEpZQyLMyLCLoJsw0pNrwpi8yHPMQ92nQj4uoJ0Qar0hokkaC1/sYyvnQTrdiiLfg86jRXm5Dk5Zouiq7SZHaIZH6Eflh1K4mamkkLNURkGqJ2tTEZEbb1QyaGohIDaQcGq46tYzZmwnKXczRxOWOZiLmBuL/IrsJq3wn5z+FRiQ/ObHilAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Guinea Jump&quot;
+        title=&quot;Guinea Jump&quot;
+        src=&quot;/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/fcda8/guineajump.png&quot;
+        srcset=&quot;/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/12f09/guineajump.png 148w,
+/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/e4a3f/guineajump.png 295w,
+/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/fcda8/guineajump.png 590w,
+/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/efc66/guineajump.png 885w,
+/static/ff5fd302dbebd16a0ab2ddc1ec3a133b/bb2fd/guineajump.png 1058w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Phaser3-cli es una herramienta de linea de comandos que te ayuda a crear y gestionar tu propio proyecto con Phaser.
+Cuenta con un constructor de proyecto para web y android.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/phaser3-cli&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 509px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.70333988212181%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABQ0lEQVQoz51SsUrDUBR9m7/gIDgLjn6AiyAILha3rgWtg4uDOOggDl0d3BT/ICASghTSNEhtrVoxodhoSpISm6apQypBkxyThy1pUUQvnHcPF+7hnPce8YMAQQQgRMzDMERcg/7XIvQsCPB2dofD8Et4XDzZkxjuRZzIagtHG3s4XM4gf86j/+F/u/STSFKMOtzMnYJML2F1bR+p9Dau681oHPware+68H2fIumcZA+OQWZSmJhLY3I+AzZfRF2WUC5dwe500HMcON0ubNumPO5Ko4GmqkKWJBi6PpKInDA8phbWMbuyhcVsDnyhGC084u7mFpeiiDOGgSgI4FgWFxxHeblUgmVZuK/VUK1URu8wJlX5GQ+KDu3Fxrv3Rl/b8zzq5klRYJomWoZBEbt0o7i6psFqt/Ha641G/u/3GH+Qgc4nPXZOZ7LJyr0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Phaser3-cli banner&quot;
+        title=&quot;Phaser3-cli banner&quot;
+        src=&quot;/static/fa62496434d88afee6378f4397f04843/71554/phaser3-cli.png&quot;
+        srcset=&quot;/static/fa62496434d88afee6378f4397f04843/12f09/phaser3-cli.png 148w,
+/static/fa62496434d88afee6378f4397f04843/e4a3f/phaser3-cli.png 295w,
+/static/fa62496434d88afee6378f4397f04843/71554/phaser3-cli.png 509w&quot;
+        sizes=&quot;(max-width: 509px) 100vw, 509px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Atlas Packer Phaser - Es un proyecto surgido de la necesidad de tener una herramienta capaz de unir sprites en uno solo y que sea 100% compatible con Phaser, nos es de gran ayuda a la hora de la creación de nuestros videjuegos con Phaser (enlace en el menú de la página web).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f7d45b739e33c61dd3650b1630050949/f32b7/atlas_packer.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADGUlEQVQ4y22T2U+TWRiHey2CIKUrbb+u0JZSEbdoRiEzo4xxdwwIwQSjo3Phgmtq3EZDIy4gKqKolNKWdsAWLK3RFjRRZ8ZEorfz3zye70MQghe/nPX9vc857zkqh9WB0WzDJKQ2WHDaHJitTgxGC5UeH5ZKHybJic5sx+L2Y3R6Wa63YHJVobe6KBUxWrFWojNTqDagqqldj9O/jvKKGop0Nnzrf+H5nSDZ/gcMXgkwHo2Qjw0S7+wgfq+biWePyQ1HiFw8x+69+ymTPFSvrcMvtGZTAyqtmNAI6axexXDtpi1MpicIdd4hdLiFbGSIfHyY6Ll28s/6yCdTpHru8uLiaZoaW9DYvILWz/EzAeIjKVRlFjeytLOGdQ18SI8xOTrC2KM+3k+94VUiQeJuDx+mpsglk6TDQ2QGBmg7cowSoxPJU8vZC1cJDcVRab4RyobFBrvArycfCTHa3UX/gb28ikXJPO0ncf4EyeBlMuEwz7tuMXryEDsatqG1+5DcKzkduEJyfGLGcD7h6o2byf2dINzVQ/RGkM+fphnq7iF88xb/vXtPRtxpqPMmaUF/UBAWG0QRK2vwr6unYVfTQsMSsehdtZEXD++T7evl8YHfST18wMfBXrKdfzEsipQS89lHvcT+aOa3+s0U6OzKCYsNTgo00o8JM7EY0du3SYuj/iuohp+GGQwGmRwf5+3kW6L37pMbGWVfc5tiorNVKfFyu8hwlSj957EE08k4qVOHmYpH+f9lkuyNa+R6u/gn8oQviQFeXw/Qsr+VJYqhF43w0EjuhYbyfVSt/onApQ5am9o4snM3gbMX+PPoSRrrf+VqezuXLndwsLGVM02N1P28lSK9XYmdLe6cYZnFo2QoNblYKrIWi+dQWF7BUq2NQkFeJPoFesfMWLQFBhfLTRUKmdpcKVSh+MwZfif1oBdPQbkT68yDl6WVvvdnJQPI+13ip3lWbsDhWzOf0P2tWg6WCanlzHPkP5YSI2RwVFPuWqGALCrKlu172LWvGbPTg81drXz8UqOE2mgVkuZpZlxmdinx8rHl9isWwhIi3YHVIQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;AtlasPackerPhaser&quot;
+        title=&quot;AtlasPackerPhaser&quot;
+        src=&quot;/static/f7d45b739e33c61dd3650b1630050949/fcda8/atlas_packer.png&quot;
+        srcset=&quot;/static/f7d45b739e33c61dd3650b1630050949/12f09/atlas_packer.png 148w,
+/static/f7d45b739e33c61dd3650b1630050949/e4a3f/atlas_packer.png 295w,
+/static/f7d45b739e33c61dd3650b1630050949/fcda8/atlas_packer.png 590w,
+/static/f7d45b739e33c61dd3650b1630050949/efc66/atlas_packer.png 885w,
+/static/f7d45b739e33c61dd3650b1630050949/f32b7/atlas_packer.png 1136w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Animator Tool - Es un proyecto que nos ayuda a animar nuestro atlas generado con el Atlas Packer Phaser y que es de gran ayuda para no tener que escribir todo el código de animación en Phaser (enlace en el menú de la página web).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9f3c7004cfb8502f8ea839deaee1c91c/cd1d6/anim_tool.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.23751095530237%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACMUlEQVQ4y31TyY7TQBD1FzAh4zh2Fq9Z7Wze7XhJMhlxAnFjhBAIgUAgcRgYTkiQI5/9KHfsyYQEDk9V7i6/frVxPd2ApBgQZQOtrgZD0dElK3Y09n3ZUsG3/w2hpaDVkul/HQJxcHGawks20CYBGsoYl/IIvGKSbzIrqOSfQXH+uDOA48Z4dnUNw7DQ7s3ApXkOd7mBYnoUNIagjFgw8wnFI0IJ5qvld0FMsaIxgTRYgJf359x6lSEkhYOJD0nbB+2DKwLzCNU5U1lYyqhAlQmXJBmidAtzEUNUjwkre9k2CPrR2cmjpeX8ZQaPCI1pWAYcCJuk+KLVhz0z4TkL1MhvaucJGwfCFeyYmmL5Zc1OFTZIHS+p/1V4IIxz2NEaOiM8X8OGapG1zpKcEDphhiDd3KcslKneN6Jqwl94ePeQnJsHGeJ8C72cwwL1zpDNYYPNoUUPHKNSexivgwDODldMoTL2wHeH1OkBwvwa3R4NqmFSdzXURIXhorQ1SSF1fXZXb/eYCF4eEkaUcpTDT9aQRy6a9JrtRQiyLZyitmGKqZfAtAPMvBgu3Tlkp9YCC2uOzZOnJMSGPLShmS46gzm4gMZmubpiq9fpTXD36QV+fLnB7ttb7G5fYnf3Dr9uX+Hn1/f4/f01Pn/8gLmXoz8N8PzmDfqzEAYtxdhJoI5dcBMnIgUhRH3KmjGn3bT9FC41y2GWlPoJPLJJlGIZryBRrepUnkeizsrE9r7YGEr9D7whl+HPC/DwAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Animtool&quot;
+        title=&quot;Animtool&quot;
+        src=&quot;/static/9f3c7004cfb8502f8ea839deaee1c91c/fcda8/anim_tool.png&quot;
+        srcset=&quot;/static/9f3c7004cfb8502f8ea839deaee1c91c/12f09/anim_tool.png 148w,
+/static/9f3c7004cfb8502f8ea839deaee1c91c/e4a3f/anim_tool.png 295w,
+/static/9f3c7004cfb8502f8ea839deaee1c91c/fcda8/anim_tool.png 590w,
+/static/9f3c7004cfb8502f8ea839deaee1c91c/efc66/anim_tool.png 885w,
+/static/9f3c7004cfb8502f8ea839deaee1c91c/cd1d6/anim_tool.png 1141w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Audio Sprite - Es una herramienta que nos ayuda a unir distintos audios con el objetivo de obtener un solo audio y su respectivo JSON con los datos de corte.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://gammafp.github.io/audio-sprite-gamma/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.65538735529832%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABRElEQVQ4y62UwVKDMBCG8wyUtoQkBJKCM1UvHupYtWOdjh58/+f5/QOlDRXxUA8fWTa7S3Z/QLj7RyTLHGleEINUFZhHBP+M/oGPZNpAGwOlz4R8IasGsqpPLEzJAl1SwgBlKxTOI5Hdw1JlMdcWmfXIGR8T8kV745ozpYP1DQpfw7gavm6wvl23drlqoCsPWZQssIJkfEzIF+Ei+6LHdX/4wnZ3wO79E5vnNzzRft1/4IXcPWxO8XL0hO7c8qD4EeVvuNaDsUzFi94YBEUtZPRlVTMcS5Rz6RNxq20R6whnRDHCrIIg1q+6udHXEuyym2E+dsL4SUtTYUEVA3MqqiiSoRBB3d6/6FX+q+Xf2som9kZbjgc8NvipvR8nHAu8BjHWyjXwhFTrHxHtDyFiJjUkXx3Nz08xwJiiJQ8/gKN9mRPzDTSKf7WDGJdOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Audio Sprite&quot;
+        title=&quot;Audio Sprite&quot;
+        src=&quot;/static/0a88e396e5fddac75e3018ed4ca715a8/fcda8/audio_sprite.png&quot;
+        srcset=&quot;/static/0a88e396e5fddac75e3018ed4ca715a8/12f09/audio_sprite.png 148w,
+/static/0a88e396e5fddac75e3018ed4ca715a8/e4a3f/audio_sprite.png 295w,
+/static/0a88e396e5fddac75e3018ed4ca715a8/fcda8/audio_sprite.png 590w,
+/static/0a88e396e5fddac75e3018ed4ca715a8/efc66/audio_sprite.png 885w,
+/static/0a88e396e5fddac75e3018ed4ca715a8/e751c/audio_sprite.png 1123w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TTF2PNG - Una herramienta que nos ayuda a convertir archivos de fuente TTF a PNG para poder usar fuentes bitmap para juegos retro.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ttf2png.ga/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.11259754738016%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC5ElEQVQ4y42Sy28TVxTG518p6raNVEQRj6wqsaiQYAGtVMGKLQtAbYWqgIRSIYJEpVYU8QrDTCaGEJcqBPIiJnESIHGSmsRjj8eOPfYkMVEWiNSxYzuPX89MYjWbSj3SN/e7373nu+fcO0rj18c5cOwkDce/4ci3p/ii8Ss+33uAhn2H/hc+k71fSs7+E9+x/8hRFL2tHc0I8FCgBR6hylzV2lB1g4c70PQ2GXdp3rqmy6j7ui65+qMO2gKPUbLZLNlsBtfJsuQ4LORzLLouC6LPC3fzeTJuASe/QCHnkBPdyeWZX1gSvMd1F3E8TZCTfCUWi5GIxxmenub3iUn+HBzixcsQ3TOzDLx+Q2hkjMyQTnQkSCAyxeSsyfTbQZ7qzfxhtDAyYJCwbDwf0zTFUMzcdIqW0DAHb2uce/KMht9aaWy5wVk1wGnjKZW7R0kaZzh8v5P+uE1v8B6/3vyZ1uBjjPvNpFJzxMUskUigmGI4ZyfpGntDsHeA9v6XXAl20XzrDr909XA1FOZD9w3s5/e4qHUSipqM9uk0XTjGT9+folO9TCqd8auLi5fifVKWxaC0o4bHuNb/iql3M4zHTC519zMamUQLR7jwLMTVngGGoglmwjp91/cweesTot0/krAdubbYvxVaQsamo7x4O4ERfs2U3N9E9B13pLrwX1F6xyO0Cr/ZN8hw1MIceUBS/ZTYXc/wB8ykIy3Htiu0pDrP2U5afuu5VEp40sf8XJq0aJmUjSt8MTNHRtqLjL8i1NlEj36eyOhzknYay0rgeSlra2vUUS6XKQnqc4+XfX2bf1xZ8VFcLbFSqrGyWqVcqbHbQ0GiVCrzd7FIPbZ2wK7Ri2JxleXlZSqVCv8VytbWlmwsUq3Wtg1k7qNuLHxzc3PHsIimaTxQVQzDoKPjCbOzMX/N2+PBN1wtlXxUazX/9EqlKuVXWBNerVZ3DsFvu/4D27YtDxGnUCiwvr7u521sbPIPOHRW9R69wK8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;TTF2PNG&quot;
+        title=&quot;TTF2PNG&quot;
+        src=&quot;/static/19fd06e12dffce90da71ceac9d0d27ff/fcda8/ttf2_png.png&quot;
+        srcset=&quot;/static/19fd06e12dffce90da71ceac9d0d27ff/12f09/ttf2_png.png 148w,
+/static/19fd06e12dffce90da71ceac9d0d27ff/e4a3f/ttf2_png.png 295w,
+/static/19fd06e12dffce90da71ceac9d0d27ff/fcda8/ttf2_png.png 590w,
+/static/19fd06e12dffce90da71ceac9d0d27ff/efc66/ttf2_png.png 885w,
+/static/19fd06e12dffce90da71ceac9d0d27ff/3a737/ttf2_png.png 897w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[gammarun]]></title><description><![CDATA[Esto es una prueba de un markdown para los jueguecitos]]></description><link>https://localhost:8000/games/gammarun/</link><guid isPermaLink="false">https://localhost:8000/games/gammarun/</guid><pubDate>Sat, 29 Feb 2020 11:11:57 GMT</pubDate><content:encoded>&lt;h3&gt;Esto es una prueba de un markdown para los jueguecitos&lt;/h3&gt;</content:encoded></item></channel></rss>
