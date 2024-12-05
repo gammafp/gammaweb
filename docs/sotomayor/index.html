@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOTOMAYOR</title>
+  <script type="module" crossorigin src="/sotomayor/assets/index-d3bc36e1.js"></script>
+  <link rel="stylesheet" href="/sotomayor/assets/index-01456f9d.css">
+</head>
+
+<body>
+    <div id="app">
+        <canvas id="renderCanvas"></canvas>
+    </div>
+    <div class="state-ui">
+        <h2>Turn Of: <span id="turnof">PLAYER1</span></h2>
+        <h2 class="statetext">State: <span id="state">INIT</span></h2>
+    </div>
+    <div id="buttons">
+        <div class="player-ui-container">
+            <h2>Player 1 <span id="box-player1"></span></h2>
+            <button id="pass-turn-player1" class="generic-button mt-2">PASS TURN Player1</button>
+            <button id="go-to-board-player1" class="mt-2 generic-button">GO TO BOARD</button>
+            <button id="cancel-put-card-button-player1" class="mt-2 generic-button">CANCEL PUT CARD PLAYER1</button>
+            <!-- <button id="board-view-player1" class="generic-button mt-2">Go to board view</button> -->
+            <div class="mt-2">
+                <h3 id="energy-player1">Energy: 0</h3>
+                <h3 id="hand-remain-player1">Maze: 0</h3>
+                <h3 id="graveyard-player1">Graveyard: 0</h3>
+                <div class="hearts">
+                    <img src="assets/Icon8.png" id="player1-life-0" alt="life">
+                    <img src="assets/Icon8.png" id="player1-life-1" alt="life">
+                    <img src="assets/Icon8.png" id="player1-life-2" alt="life">
+                </div>
+            </div>
+        </div>
+        <div class="player2-ui-container">
+            <h2>Player 2 <span id="box-player2"></span></h2>
+            <button id="pass-turn-player2" class="generic-button mt-2">PASS TURN Player2</button>
+            <button id="go-to-board-player2" class="mt-2 generic-button">GO TO BOARD</button>
+            <button id="cancel-put-card-button-player2" class="mt-2 generic-button">CANCEL PUT CARD PLAYER2</button>
+            <!-- <button id="board-view-player2" class="generic-button mt-2">Go to board view</button> -->
+            <div class="mt-2">
+                <h3 id="energy-player2">Energy: 0</h3>
+                <h3 id="hand-remain-player2">Maze: 0</h3>
+                <h3 id="graveyard-player2">Graveyard: 0</h3>
+                <div class="hearts">
+                    <img src="assets/Icon8.png" id="player2-life-0" alt="life">
+                    <img src="assets/Icon8.png" id="player2-life-1" alt="life">
+                    <img src="assets/Icon8.png" id="player2-life-2" alt="life">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cancel put-card -->
+    <div id="cancel-put-card">
+    </div>
+
+    <div class="remove-card-from-hand">
+        REMOVE CARD FROM HAND
+    </div>
+
+    <div id="attack-overlay--container">
+        <div class="player1-card">
+            <img class="player2-card--image" src="/sotomayor/assets/cards/alpha/001-alpha/common-larva.png" alt="Common larva">
+        </div>
+        <div class="player2-card">
+            <img class="player2-card--image" src="/sotomayor/assets/cards/alpha/002-alpha/dark-cocoon.png" alt="Common larva">
+        </div>
+    </div>
+    <div id="overlay-curso">
+        <button id="init-close-button">X</button>
+        <div id="container-curso">
+            <div>
+
+                <h3 class="title-orange">Bienvenido a tu primera batalla en Sotomayor.</h3>
+                Lo primero que debes hacer es sacar 5 cartas de tu mazo.
+                Estas
+                serán tu mano.
+
+                Según el resultado del lanzamiento de una moneda, sabemos que jugador comenzará este juego, y esta vez
+                te
+                toca
+                empezar a ti.
+            </div>
+            <br />
+            <div>
+
+                <h3 class="title-orange">
+                    Turno del jugador
+                </h3>
+
+                Al comienzo de cada turno, se saca una carta de tu mazo.
+
+                Desde tu mano, puedes realizar varias acciones:
+            </div>
+            <br />
+            <div>
+
+                <h3 class="title-orange">
+                    Bajar al campo una carta criatura:
+                </h3>
+                Estas cartas se centran en el ataque y la defensa. Solo se puede bajar una
+                por turno
+
+                Bajar al campo una carta generadora:
+
+                Son cartas que generan energía por turno. Esta energía se almacena en los acumuladores de energías. Solo
+                se
+                puede bajar una por turno
+
+                Estas pueden ser asignadas a otras cartas para ser utilizada como requerimiento de acciones.
+
+                Cada carta solo se puede cargar una vez por turno.
+            </div>
+            <br>
+            <div>
+                <h3 class="title-orange"> 
+                    Usar una carta de apoyo:
+                </h3>
+                Estas cartas tienen diferentes efectos en las criaturas y en el campo de
+                batalla.
+                Solo
+                se puede bajar una por turno
+
+                Desde el campo de batalla, mientras tus cartas lo permitan, puedes realizar varias acciones:
+
+                Realizar una acción de carta: Las cartas pueden tener acciones o efectos asociados. Estas acciones
+                pueden
+                tener
+                un costo de energía específica. Estos efectos solo se pueden activar durante tu turno como jugador.
+                Entre
+                las
+                acciones se encuentra el ataque, que es la mecánica básica para ganar la partida.
+
+                Realizar fusión de cartas: Puedes elegir la secuencia de fusión de una carta. Si se cumplen las
+                condiciones,
+                la
+                fusión será exitosa y convocará una carta que, en principio, es más poderosa que la carta base. En caso
+                de
+                que
+                la fusión no sea exitosa, la carta víctima simplemente será desplazada al cementerio de cartas, mientras
+                que
+                la
+                carta que inicia el proceso de fusión tomará su lugar en el campo de batalla.
+            </div>
+
+            <br>
+            <div>
+                <h3 class="title-orange">
+                    Estasis
+                </h3>
+                Ten en cuenta que al bajar una carta criatura o generadora, estas se ven afectadas por el efecto
+                "estasis",
+                lo
+                que significa que no pueden realizar ninguna acción hasta el siguiente turno del jugador.
+            </div>
+            <br>
+            <div>
+                <h3 class="title-orange">
+                    Pasar turno
+                </h3>
+                Para poder pasar el turno a tu contrincante, debes bajar al menos una carta.
+            </div> 
+            <br>
+            <div>
+                <h3 class="title-orange">
+                    El Campo de batalla
+                </h3>
+                El campo de batalla se divide en columnas y filas. Cuando una columna está vacía, está desprotegida y el
+                enemigo
+                puede atacar directamente al jugador.
+    
+                Cada jugador tiene 6 posiciones en el campo, y las cartas pueden moverse de una posición a otra gastando
+                una
+                unidad de energía, acción conocida como "movimiento". Las cartas también pueden realizar un "switch",
+                que
+                consiste en el intercambio de posición entre cartas, y tiene el mismo costo que un movimiento.
+            </div>
+            <br>
+            <div>
+                <h3 class="title-orange">
+                    Condición para ganar:
+                </h3>
+                El objetivo del juego es eliminar la vida de tu oponente atacando las tres columnas en su control cuando
+                estas
+                estén vacías, utilizando los recursos necesarios para lograr tu propósito. Ganas.
+            </div>
+            <div>
+                <h3>
+                    Pierdes si...
+                </h3>
+                <div>
+                    Un jugador puede perder por tres razones:
+        
+                    Quedar sin puntos de vida.
+                    Quedar sin cartas que robar.
+                    Efecto de una carta.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+</body>
+
+</html>
