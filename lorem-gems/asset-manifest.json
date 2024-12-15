@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lorem-gems/static/css/main.d6de4a94.css",
+    "main.js": "/lorem-gems/static/js/main.5315b061.js",
+    "static/js/787.a2ff3a40.chunk.js": "/lorem-gems/static/js/787.a2ff3a40.chunk.js",
+    "index.html": "/lorem-gems/index.html",
+    "main.d6de4a94.css.map": "/lorem-gems/static/css/main.d6de4a94.css.map",
+    "main.5315b061.js.map": "/lorem-gems/static/js/main.5315b061.js.map",
+    "787.a2ff3a40.chunk.js.map": "/lorem-gems/static/js/787.a2ff3a40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6de4a94.css",
+    "static/js/main.5315b061.js"
+  ]
+}

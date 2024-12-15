@@ -1,0 +1,73 @@
+{
+    "frames": [
+        {
+            "filename": "shard01",
+            "frame": {
+                "w": 37,
+                "h": 13,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "shard04",
+            "frame": {
+                "w": 15,
+                "h": 31,
+                "x": 0,
+                "y": 13
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "shard02",
+            "frame": {
+                "w": 22,
+                "h": 29,
+                "x": 15,
+                "y": 13
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "shard05",
+            "frame": {
+                "w": 26,
+                "h": 22,
+                "x": 37,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "shard03",
+            "frame": {
+                "w": 26,
+                "h": 22,
+                "x": 37,
+                "y": 22
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

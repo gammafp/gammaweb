@@ -1,0 +1,42 @@
+
+{
+    "pots": {
+        "files": [
+            {
+                "type": "image",
+                "key": "blue-pot",
+                "url": "pots/blue-pot.png"
+            },
+            {
+                "type": "image",
+                "key": "death-pot",
+                "url": "pots/death-pot.png"
+            },
+            {
+                "type": "image",
+                "key": "green-pot",
+                "url": "pots/green-pot.png"
+            },
+            {
+                "type": "image",
+                "key": "orbe-pot",
+                "url": "pots/orbe-pot.png"
+            },
+            {
+                "type": "image",
+                "key": "purple-pot",
+                "url": "pots/purple-pot.png"
+            },
+            {
+                "type": "image",
+                "key": "red-pot",
+                "url": "pots/red-pot.png"
+            },
+            {
+                "type": "image",
+                "key": "yellow-pot",
+                "url": "pots/yellow-pot.png"
+            }
+        ]
+    }
+}
