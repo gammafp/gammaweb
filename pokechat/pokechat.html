@@ -1,0 +1,94 @@
+<html lang="es" ng-app="miApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="./bower_components/angular-material/angular-material.min.css">
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="./bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="./bower_components/angular-messages/angular-messages.min.js"></script>
+    <script src="./bower_components/angular-material/angular-material.min.js"></script>
+    <link rel="stylesheet" href="./bower_components/normalize/normalize.css">
+    <script src="./bower_components/a0-angular-storage/dist/angular-storage.js"></script>
+    <script src="./bower_components/angular-jwt/dist/angular-jwt.js"></script>
+    <script src="./bower_components/angular-route/angular-route.js"></script>
+    <link rel="stylesheet" href="./vista/css/pokechat.css">
+    <link rel="shortcut icon" href="./vista/imagenes/favicon.ico">
+    <!--  Scripts emu -->
+    <script src="./js/WebContent/zip.js"></script>
+    <title>Pokéchat</title>
+</head>
+
+<body ng-controller="pokechat" ng-cloak>
+    <!-- Contenedor del emulador -->
+    <div class="" layout="row" layout-align="center center">
+
+        <div class="emulador" flex>
+
+            <div class="juego">
+                <div layout="row" layout-sm="column" layout-align="center">
+                    <md-progress-circular id="progreso" md-mode="ideterminate"></md-progress-circular>
+                </div>
+                <canvas id="screen" width="840" height="530"></canvas>
+            </div>
+
+            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+                <md-button class="md-raised md-primary">Controles</md-button>
+            </section>
+
+            <div class="controles" layout="row" layout-sm="column" layout-align="center center">
+                <img src="./vista/imagenes/flechas.png" alt="" />
+                <img src="./vista/imagenes/Z.png" alt="" />
+                <img src="./vista/imagenes/X.png" alt="" />
+            </div>
+
+        </div>
+        <!-- Contenedor del chat -->
+        <div id="chat" layout="column">
+            <section layout="row" flex>
+                <md-sidenav class="md-sidenav-right" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4">
+                    <!-- No tengo idea de porque no funciona :S el background-color -->
+                    <md-toolbar class="md-theme">
+                        <div id="carrusel">
+                            <img class="imagen muestra" src="./vista/imagenes/EVENTO-compressor.jpg" alt="" />
+                            <img class="imagen" src="./vista/imagenes/VERSION_POKEMON-compressor.jpg" alt="" />
+                            <img class="imagen" src="./vista/imagenes/FESTIVIDAD-compressor.jpg" alt="" />
+                        </div>
+                    </md-toolbar>
+
+                    <md-content flex layout="column" layout-padding>
+                        <div ng-repeat="chat in todosChat" ng-cloack>
+                            <!--Incio del mensaje -->
+                            <md-card md-whiteframe="10">
+                                <h3 ng-class="chat.user_name == soyYo ? 'media-heading soyYo' : 'media-heading'">{{chat.user_name}}</h3>
+                                <p>{{chat.mensaje}}</p>
+                            </md-card>
+                            <!--Fin del mensaje -->
+                        </div>
+                    </md-content>
+
+                    <footer>
+                        <div layout="column" layout-padding>
+                            <form ng-submit="nuevoMensaje(chat)">
+                                <textarea ng-model="chat.mensaje" name="mensaje" rows="2" cols="30" maxlength="255" placeholder="Tienes 255 caracteres para enviar mensajes a otros entrenadores =D"></textarea>
+                                <section layout="row" layout-sm="column" layout-align="right" layout-wrap>
+                                    <md-button type="submit" class="md-raised md-warn">enviar</md-button>
+                                </section>
+                            </form>
+                        </div>
+                    </footer>
+
+                </md-sidenav>
+            </section>
+        </div>
+
+    </div>
+    <script src="./js/cargadorGamma.js"></script>
+    <script src="./vista/scripts/pokechat.js"></script>
+    <script src="./vista/scripts/tinyslider.js"></script>
+</body>
+
+</html>
