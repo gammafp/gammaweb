@@ -1,6 +1,7 @@
 /*
  * gammafp.com ahora es NacatamalOn: un aviso, en español e inglés, que lleva a nacatamalon.com en
- * 5 segundos. Tocar el aviso para la cuenta atrás, para poder leerlo con calma; "Ir" lleva al
+ * 5 segundos. Tocar el aviso (sin desplazarlo) para la cuenta atrás, para poder leerlo con calma;
+ * desplazarlo no la para. "Ir" lleva al
  * momento y "Quedarme" lo cierra (vuelve a salir la próxima vez que se abra la web).
  */
 (function () {
@@ -13,8 +14,11 @@
         estilo.textContent =
             '#nacatamalon-aviso{position:fixed;inset:0;z-index:2147483647;display:flex;align-items:center;justify-content:center;' +
             'padding:16px;background:rgba(6,7,12,.8);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}' +
-            '#nacatamalon-aviso .caja{max-width:560px;width:100%;max-height:100%;overflow:auto;padding:20px 20px 0;border-radius:16px;' +
+            '#nacatamalon-aviso .caja{max-width:1040px;width:100%;max-height:100%;overflow:auto;padding:20px 20px 0;border-radius:16px;' +
             'background:#14161f;color:#f2f2f5;box-shadow:0 24px 70px rgba(0,0,0,.55);text-align:center;box-sizing:border-box}' +
+            '#nacatamalon-aviso .contenido{display:grid;grid-template-columns:1fr;gap:0 28px;align-items:center}' +
+            '@media (min-width:760px){#nacatamalon-aviso .contenido{grid-template-columns:minmax(0,1fr) minmax(0,1fr);text-align:left}' +
+            '#nacatamalon-aviso .contenido .logo{margin-left:0}#nacatamalon-aviso .portada{max-height:40vh}#nacatamalon-aviso .es h2{margin-top:0}}' +
             '#nacatamalon-aviso .logo{width:140px;max-width:45%;height:auto;margin:0 auto 12px;display:block}' +
             '#nacatamalon-aviso .portada{width:100%;height:auto;max-height:30vh;object-fit:contain;border-radius:10px;display:block;background:#000}' +
             '#nacatamalon-aviso .fila{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}' +
@@ -40,6 +44,8 @@
         aviso.setAttribute('aria-labelledby', 'nacatamalon-aviso-titulo');
         aviso.innerHTML =
             '<div class="caja">' +
+            '<div class="contenido">' +
+            '<div class="medios">' +
             '<img class="logo" src="' + IMG + 'logo-dark.png" alt="NacatamalOn">' +
             '<img class="portada" src="' + IMG + 'sunset-drive.jpg" alt="Sunset Drive, made with NacatamalOn">' +
             '<div class="fila">' +
@@ -47,6 +53,8 @@
             '<img src="' + IMG + 'campfire.webp" alt="Campfire">' +
             '<img src="' + IMG + 'doom-fire.webp" alt="Doom fire">' +
             '</div>' +
+            '</div>' +
+            '<div class="textos">' +
             '<div class="es" lang="es">' +
             '<h2 id="nacatamalon-aviso-titulo">gammafp ahora es NacatamalOn</h2>' +
             '<p>Durante años aquí compartí tutoriales, herramientas y juegos para la web. Ahora estoy construyendo algo más grande: ' +
@@ -60,6 +68,8 @@
             '<strong>a 2D and 3D game engine for the browser</strong>, made for games that feel like 1997. ' +
             'Short palettes, exact pixels, Mode 7, fog and fire, all on WebGPU.</p>' +
             '<p>It\'s free, open source, and I\'m making it for you.</p>' +
+            '</div>' +
+            '</div>' +
             '</div>' +
             '<div class="pie">' +
             '<div class="cuenta" aria-live="polite"></div>' +
@@ -96,13 +106,11 @@
         }, 1000);
         pintar();
 
-        // Quien toca el aviso o lo desplaza lo está leyendo: la cuenta atrás espera. Los botones no la paran.
-        var caja = aviso.querySelector('.caja');
-        caja.addEventListener('pointerdown', function (event) {
+        // Quien toca el aviso lo está leyendo: la cuenta atrás espera. Desplazarlo no la para (click no salta
+        // tras un gesto de desplazamiento en móvil), y los botones tampoco.
+        aviso.querySelector('.caja').addEventListener('click', function (event) {
             if (!event.target.closest('a,button')) parar();
         });
-        caja.addEventListener('scroll', parar, { passive: true });
-        caja.addEventListener('wheel', parar, { passive: true });
 
         aviso.querySelector('.quedarme').addEventListener('click', function () {
             parar();
